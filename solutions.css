@@ -65,6 +65,26 @@
   transform: scale(1.5);
 }
 /* Esercizio 10 */
+@keyframes spin {
+  0% {transform: rotate(-0deg);}
+  25% {transform: rotate(-90deg);}
+  50% {transform: rotate(-180deg);}
+  75% {transform: rotate(-270deg);}
+  100% {transform: rotate(-360deg);}
+}
+.ex-10-icon {
+  animation: spin 1s linear infinite;
+}
 /* Esercizio 11 */
+@keyframes spin2 {
+  0% {transform: rotate(0deg);}
+  25% {transform: rotate(90deg);}
+  50% {transform: rotate(180deg);}
+  75% {transform: rotate(270deg);}
+
+}
+.ex-11-icon:hover {
+  animation: spin2 2s linear infinite;
+}
 /* Esercizio 12 */
 /* Esercizio 13 */
