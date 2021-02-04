@@ -20,8 +20,26 @@
   border-radius: 50%;
 }
 /* Esercizio 4 */
+.ex-4-square {
+  transition: opacity 1s linear;
+}
+.ex-4-square:hover {
+  opacity: 0%;
+}
 /* Esercizio 5 */
+.ex-5-square {
+  transition: transform 0.5s linear;
+}
+.ex-5-square:hover {
+  transform: scale(2);
+}
+.ex-5-square:active {
+  transform: scale(0.5);
+}
 /* Esercizio 6 */
+.ex-6-img:hover {
+  filter: grayscale();
+}
 /* Esercizio 7 */
 /* Esercizio 8 */
 /* Esercizio 9 */
